@@ -1,0 +1,14 @@
+body{
+    font-family: monospace;
+}
+
+.anaglyph{
+    letter-spacing: 6px;
+    text-shadow: red 0 0, cyan 0 0;
+    transition: text-shadow 200ms;
+    text-align: center;
+}
+
+.anaglyph:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+}
